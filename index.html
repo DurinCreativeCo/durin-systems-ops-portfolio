@@ -206,7 +206,7 @@
         }
 
         section.main-content {
-            padding: 120px 40px;
+            padding: 60px 40px; /* Reduced padding from 120px to 60px to bring sections closer together */
             max-width: 1200px;
             margin: 0 auto;
             position: relative;
@@ -252,6 +252,7 @@
             background-position: center;
             position: relative;
             border-bottom: 1px solid var(--glass-border);
+            display: block;            text-decoration: none;
         }
 
         .project-info {
@@ -383,7 +384,7 @@
             .nav-bar { padding: 15px 20px; }
             .process-container { flex-direction: column; }
             .expertise-container { flex-direction: column; }
-            section.main-content { padding: 60px 20px; }
+            section.main-content { padding: 35px 20px; } /* Reduced padding from 60px to 35px on mobile screens */
         }
     </style>
 </head>
@@ -473,7 +474,11 @@
       
         <div class="projects-grid">
             <div class="project-card">
-                <div class="project-thumbnail" style="background-image: url('Ops Home Page Mockups/Basecamp Hub Mockup.png');"></div>
+                <!-- 
+                     NOTE: Replace the URL inside href="..." below with your own video or web page link. 
+                     Make sure to keep the image file path inside url('...') the same.
+                -->
+                <a href="https://sites.google.com/view/durinopsportfolio/project-1" target="_blank" class="project-thumbnail" style="background-image: url('Ops Home Page Mockups/Basecamp Hub Mockup.png');"></a>
                 <div class="project-info">
                     <span class="project-tag">Basecamp</span>
                     <h4>Workspace Transformation & Workflow Optimization</h4>
@@ -482,7 +487,11 @@
             </div>
 
             <div class="project-card">
-                <div class="project-thumbnail" style="background-image: url('Ops Home Page Mockups/Planning & Communication Hub Mockup.png');"></div>
+                <!-- 
+                     NOTE: Replace the URL inside href="..." below with your own video or web page link. 
+                     Make sure to keep the image file path inside url('...') the same.
+                -->
+                <a href="https://sites.google.com/view/durinopsportfolio/project-2" style="background-image: url('Ops Home Page Mockups/Planning & Communication Hub Mockup.png');"></a>
                 <div class="project-info">
                     <span class="project-tag">Airtable</span>
                     <h4>Operational Planning & Communications Hub</h4>
@@ -491,7 +500,11 @@
             </div>
 
             <div class="project-card">
-                <div class="project-thumbnail" style="background-image: url('Ops Home Page Mockups/Inventory Mockup.png');"></div>
+                <!-- 
+                     NOTE: Replace the URL inside href="..." below with your own video or web page link. 
+                     Make sure to keep the image file path inside url('...') the same.
+                -->
+                <a href="https://sites.google.com/view/durinopsportfolio/project-3" target="_blank" class="project-thumbnail" style="background-image: url('Ops Home Page Mockups/Inventory Mockup.png');"></a>
                 <div class="project-info">
                     <span class="project-tag">Airtable</span>
                     <h4>Multi-Location Inventory Operations System</h4>
@@ -583,7 +596,7 @@
     <footer id="footer" style="padding: 100px 40px; border-top: 1px solid var(--glass-border); text-align: center;">
         <div style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
             <a href="mailto:aleksandradurin@gmail.com" style="font-size: 1.5rem; color: white; text-decoration: underline; font-weight: 700;">aleksandradurin@gmail.com</a>
-            <a href="linkedin.com/in/aleksandra-durin-bb174395" target="_blank" style="font-family: 'Roboto Mono'; font-size: 0.9rem; color: var(--sub-text); text-decoration: none; border: 1px solid var(--glass-border); padding: 8px 20px; border-radius: 999px; transition: all 0.3s ease;">LinkedIn</a>
+            <a href="https://linkedin.com/in/aleksandra-durin-bb174395" target="_blank" style="font-family: 'Roboto Mono'; font-size: 0.9rem; color: var(--sub-text); text-decoration: none; border: 1px solid var(--glass-border); padding: 8px 20px; border-radius: 999px; transition: all 0.3s ease;">LinkedIn</a>
         </div>
     </footer>
 
