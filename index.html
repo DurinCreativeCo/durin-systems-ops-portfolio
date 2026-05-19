@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | FirstName LastName</title>
+    <title>Portfolio | Aleksandra Durin</title>
     <!-- Google Fonts: Montserrat for Title & About, Roboto Mono for Subtitle -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
  
@@ -253,25 +253,6 @@
             position: relative;
             border-bottom: 1px solid var(--glass-border);
         }
-       
-        /* Updated: Hidden by default, shown only when data-media="video" is present */
-        .project-thumbnail .video-overlay {
-            display: none;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.3);
-            align-items: center;
-            justify-content: center;
-            opacity: 0.8;
-            transition: opacity 0.3s;
-        }
-        .project-thumbnail[data-media="video"] .video-overlay {
-            display: flex;
-        }
-        .project-card:hover .video-overlay { opacity: 1; }
 
         .project-info {
             padding: 20px 25px 25px 25px;
@@ -410,7 +391,7 @@
     <div class="global-spotlight" id="globalSpotlight"></div>
 
     <nav id="stickyNav" class="nav-bar">
-        <span class="nav-logo">FirstName LastName</span>
+        <span class="nav-logo">Aleksandra Durin</span>
         <div style="display: flex; gap: 20px; align-items: center;">
             <a href="#expertise" style="color: white; text-decoration: none; font-size: 0.65rem; font-family: 'Roboto Mono';">EXPERTISE</a>
             <a href="#process" style="color: white; text-decoration: none; font-size: 0.65rem; font-family: 'Roboto Mono';">PROCESS</a>
@@ -425,7 +406,7 @@
         <canvas id="canvas"></canvas>
         <div class="content">
             <div class="header-group">
-                <h1>FirstName LastName</h1>
+                <h1>Aleksandra Durin</h1>
                 <hr>
                 <h2>Operations Specialist & Systems Architect</h2>
             </div>
@@ -492,12 +473,7 @@
       
         <div class="projects-grid">
             <div class="project-card">
-                <!-- Added: data-media="video" attribute -->
-                <div class="project-thumbnail" data-media="video" style="background-image: url('Ops Home Page Mockups/Basecamp Hub Mockup.png');">
-                    <div class="video-overlay">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
-                    </div>
-                </div>
+                <div class="project-thumbnail" style="background-image: url('Ops Home Page Mockups/Basecamp Hub Mockup.png');"></div>
                 <div class="project-info">
                     <span class="project-tag">Basecamp</span>
                     <h4>Workspace Transformation & Workflow Optimization</h4>
@@ -506,12 +482,7 @@
             </div>
 
             <div class="project-card">
-                <!-- Added: data-media="video" attribute -->
-                <div class="project-thumbnail" data-media="video" style="background-image: url('Ops Home Page Mockups/Planning & Communication Hub Mockup.png');">
-                    <div class="video-overlay">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
-                    </div>
-                </div>
+                <div class="project-thumbnail" style="background-image: url('Ops Home Page Mockups/Planning & Communication Hub Mockup.png');"></div>
                 <div class="project-info">
                     <span class="project-tag">Airtable</span>
                     <h4>Operational Planning & Communications Hub</h4>
@@ -520,12 +491,7 @@
             </div>
 
             <div class="project-card">
-                <!-- Added: Standardized structure with video-overlay included but hidden by default -->
-                <div class="project-thumbnail" style="background-image: url('Ops Home Page Mockups/Inventory Mockup.png');">
-                    <div class="video-overlay">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
-                    </div>
-                </div>
+                <div class="project-thumbnail" style="background-image: url('Ops Home Page Mockups/Planning & Communication Hub Mockup.png/Inventory Mockup.png');"></div>
                 <div class="project-info">
                     <span class="project-tag">Airtable</span>
                     <h4>Multi-Location Inventory Operations System</h4>
@@ -616,8 +582,8 @@
 
     <footer id="footer" style="padding: 100px 40px; border-top: 1px solid var(--glass-border); text-align: center;">
         <div style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
-            <a href="mailto:hello@yourdomain.com" style="font-size: 1.5rem; color: white; text-decoration: underline; font-weight: 700;">hello@yourdomain.com</a>
-            <a href="https://www.linkedin.com" target="_blank" style="font-family: 'Roboto Mono'; font-size: 0.9rem; color: var(--sub-text); text-decoration: none; border: 1px solid var(--glass-border); padding: 8px 20px; border-radius: 999px; transition: all 0.3s ease;">LinkedIn</a>
+            <a href="mailto:aleksandradurin@gmail.com" style="font-size: 1.5rem; color: white; text-decoration: underline; font-weight: 700;">aleksandradurin@gmail.com</a>
+            <a href="linkedin.com/in/aleksandra-durin-bb174395" target="_blank" style="font-family: 'Roboto Mono'; font-size: 0.9rem; color: var(--sub-text); text-decoration: none; border: 1px solid var(--glass-border); padding: 8px 20px; border-radius: 999px; transition: all 0.3s ease;">LinkedIn</a>
         </div>
     </footer>
 
